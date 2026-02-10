@@ -768,6 +768,18 @@ header.hide {
     opacity: 0;
 }
 
+/* ---- Fix: dropdown should sit above logo and header contents ---- */
+header .logo { position: relative; z-index: 1; }
+header nav { position: relative; z-index: 10; }
+
+header nav ul li.dropdown ul {
+  z-index: 100;              /* 기존 1 -> 크게 */
+}
+
+/* 드롭다운 자체도 hover 영역이 아닌 실제 클릭 영역이 되도록 */
+header nav ul li.dropdown div { position: relative; z-index: 10; }
+
+
 /* 03. Footer */
 
 footer {

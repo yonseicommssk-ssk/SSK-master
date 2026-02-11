@@ -530,12 +530,12 @@ header {
 
 header .logo{
   display: inline-block;
-  width: 224px;
-  height: 40px;              /* 24–25px is proportional */
+  width: 180px;
+  height: 30px;              /* 24–25px is proportional */
   background: url("../img/logo.png") no-repeat left center;
   background-size: contain;
   border: none;
-  margin-top: 20px;          /* you may reduce a bit since it’s taller */
+  margin-top: 28px;          /* you may reduce a bit since it’s taller */
 }
 
 header nav {
@@ -789,8 +789,8 @@ footer {
 
 footer .logo {
     display: inline-block;
-    width: 224px;
-    height: 48px;
+    width: 180px;
+    height: 30px;
     background-image: url("../img/logo_white.png");
     background-size: contain;
     background-repeat: no-repeat;
